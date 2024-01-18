@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sosyolog İpek Büyükyörük </title>
+    <link rel="shortcut icon" href="imagegallery/favicon.ico" type="image/x-icon">
 </head>
 <body>
   
@@ -34,27 +35,22 @@
           </ul>
        
     </header>
-
     <div class="slideshow-container">
 
       <div class="mySlides fade">
-        <div class="numbertext">1 / 4</div>
-        <img src="ss1.jpg" style="width: 1000px; height: 500px;">
+        <img src="imagegallery/ss1.jpg" style="width: 1000px; height: 500px;">
       </div>
       
       <div class="mySlides fade">
-        <div class="numbertext">2 / 4</div>
-        <img src="ss2.jpg" style="width: 1000px; height: 500px;">
+        <img src="imagegallery/ss2.jpg" style="width: 1000px; height: 500px;">
       </div>
       
       <div class="mySlides fade">
-        <div class="numbertext">3 / 4</div>
-        <img src="ss3.jpg" style="width: 1000px; height: 500px;">
+        <img src="imagegallery/ss3.jpg" style="width: 1000px; height: 500px;">
       </div>
       
       <div class="mySlides fade">
-        <div class="numbertext">4 / 4</div>
-        <img src="ss4.jpg" style="width: 1000px; height: 500px;">
+        <img src="imagegallery/ss4.jpg" style="width: 1000px; height: 500px;">
       </div>
       </div>
       <br>
@@ -70,7 +66,7 @@
         <div class="responsive">
           <div class="gallery">
             <a target="_blank" href="img_5terre.jpg">
-              <img src="aileicisorun.jpg" alt="Cinque Terre">
+              <img src="imagegallery/aileicisorun.jpg" alt="Cinque Terre">
             </a>
             <div class="desc">Aile İlişkilerini Güçlendirme Yolları</div>
           </div>
@@ -79,7 +75,7 @@
         <div class="responsive">
           <div class="gallery">
             <a target="_blank" href="img_forest.jpg">
-              <img src="cocukegitimi.jpg" alt="Forest">
+              <img src="imagegallery/cocukegitimi.jpg" alt="Forest">
             </a>
             <div class="desc">Çocuk Eğitimi ve Gelişimi Üzerine Tavsiyeler</div>
           </div>
@@ -88,7 +84,7 @@
         <div class="responsive">
           <div class="gallery">
             <a target="_blank" href="img_lights.jpg">
-              <img src="evlilikiletisim.png" alt="Northern Lights">
+              <img src="imagegallery/evlilikiletisim.png" alt="Northern Lights">
             </a>
             <div class="desc">Evlilikte Sağlıklı İletişim Stratejileri</div>
           </div>
@@ -97,7 +93,7 @@
         <div class="responsive">
           <div class="gallery">
             <a target="_blank" href="img_mountains.jpg">
-              <img src="aileiliskileri.jpg" alt="Mountains">
+              <img src="imagegallery/aileiliskileri.jpg" alt="Mountains">
             </a>
             <div class="desc">Aile İçi Sorunların Çözümü</div>
           </div>
@@ -116,7 +112,28 @@
         <p>GitHub: <a href="#">github.com/adinizsoyadiniz</a></p>
     </section>
 
-   
+    <div class="form">
+      <div class="center">
+    <h3>Bizimle İletişime Geçin!</h3>
+    <form>
+      <label for="fname">İsim:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Soyisim:</label><br>
+      <input type="text" id="lname" name="lname">
+      <p>Hangi Konuda Danışmanlık Almak isteğinizi Seçiniz:</p>
+      <input type="radio" id="cocuk" name="fav_language" value="cocuk">
+      <label for="cocuk">Çocuk</label><br>
+      <input type="radio" id="yetiskin" name="fav_language" value="yetiskin">
+      <label for="yetiskin">Yetişkin</label><br>
+      <input type="radio" id="aile" name="fav_language" value="aile">
+      <label for="aile">Aile</label>
+
+      <br>
+      <input type="submit">
+    </form>
+    </div>
+  </div>
+
 <script>
 let slideIndex = 0;
 showSlides();
